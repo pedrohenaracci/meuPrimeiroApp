@@ -7,10 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ffa8e17-f6ac-4995-af46-f154071074e2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/mptec/primeiroapp/CorTextoActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/mptec/primeiroapp/CorTextoActivity.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/mptec/primeiroapp/ToastActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/mptec/primeiroapp/ToastActivity.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_cor_texto.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_cor_texto.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_toast.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_toast.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -48,7 +45,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CorTextoActivity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CorTextoActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mptec/primeiroapp/CorTextoActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
@@ -63,12 +60,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_toast.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="activity_toast.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_toast.xml">
-          <provider editor-type-id="android-designer2">
+          <provider selected="true" editor-type-id="android-designer2">
             <state />
           </provider>
-          <provider selected="true" editor-type-id="text-editor">
+          <provider editor-type-id="text-editor">
             <state relative-caret-position="412">
               <caret line="45" column="36" lean-forward="false" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
               <folding />
@@ -78,10 +75,10 @@
       </file>
       <file leaf-file-name="activity_cor_texto.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_cor_texto.xml">
-          <provider editor-type-id="android-designer2">
+          <provider selected="true" editor-type-id="android-designer2">
             <state />
           </provider>
-          <provider selected="true" editor-type-id="text-editor">
+          <provider editor-type-id="text-editor">
             <state relative-caret-position="514">
               <caret line="45" column="37" lean-forward="false" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
               <folding />
@@ -2398,28 +2395,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_toast.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="45" column="36" lean-forward="false" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_cor_texto.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="45" column="37" lean-forward="false" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mptec/primeiroapp/CorTextoActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -2430,6 +2405,28 @@
             <element signature="e#982#1195#0" expanded="true" />
             <element signature="e#1194#1195#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_cor_texto.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="45" column="37" lean-forward="false" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_toast.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="45" column="36" lean-forward="false" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
