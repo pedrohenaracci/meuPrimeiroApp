@@ -2,6 +2,7 @@ package com.example.mptec.primeiroapp;
 
 import android.content.Intent;
 import android.graphics.Color;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -9,21 +10,26 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import static com.example.mptec.primeiroapp.R.*;
+
 public class CorTextoActivity extends AppCompatActivity {
 
+    EditText campoedit;
+    Button botaomudacor;
+    Button botaoex1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_cor_texto);
+        setContentView(layout.activity_cor_texto);
 
-        final EditText campoedit = (EditText) findViewById(R.id.campoedit);
+        campoedit = (EditText) findViewById(R.id.campoedit);
+        botaomudacor = (Button) findViewById(id.botaomudacor);
+        botaoex1 = (Button) findViewById(R.id.botaoex1);
 
-        Button botaomudacor = (Button) findViewById(R.id.botaomudacor);
-        Button botaoex1 = (Button) findViewById(R.id.botaoex1);
-
-        botaomudacor.setOnClickListener(new Button.OnClickListener(){
+        botaomudacor.setOnClickListener(new View.OnClickListener(){
+            @Override
             public void onClick(View v){
-                campoedit.setTextColor(Color.parseColor("##FF1493"));
+                MudaCor();
 
             }
         });
@@ -35,5 +41,9 @@ public class CorTextoActivity extends AppCompatActivity {
 
             }
         });
+    }
+
+    public void MudaCor(){
+        campoedit.setTextColor(ContextCompat.getColorStateList(this, color.corRosaLegal));
     }
 }
